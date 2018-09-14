@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>gistassigment</title>
+        <title>Assignment alert</title>
     
     </head>
     <body>
@@ -11,12 +11,52 @@
        <main>
            
            <section>
-
+             <p>Welcome please have a look at what i have to ask you and please answer well!</p>
+             <ol>
+               <li>what is my name?</li>
+               <li>Am i friendly?</li>
+               <li>Am i a tourist</li>
+               <li>How many countries have i visited?</li>
+             </ol>
            </section>
        </main> 
        <footer>
            thanks for visiting
        </footer>
+       <script>
+         var name =prompt('what is my name?');
+         var properName=name.toUpperCase();
+         var response=('Hi' + name + 'welcome to my world');
+         if(properName === 'arthur');
+           {
+             console.log(properName);
+           alert(response);
+           }
+         
+        var amFriendly =prompt('Am i frendly?');
+         var ProperFriend=amFriendly.toUpperCase();
+         var OutCome=('Yes' + amFriendly + 'i am what you say i am');
+         if(ProperFriend === 'YES');
+         {
+           console.log(ProperFriend);
+           alert(OutCome);
+         }
+         var amiTourist =prompt('Am i a Tourist?');
+         var ProperTourist = amiTourist.toUpperCase();
+         var OutResult=('No' + amiTourist + 'i dont believe you');
+         if(ProperTourist === 'NO');
+         {
+           console.log(ProperTourist);
+           alert(OutResult);
+         }
+          var Countries =prompt('how many countries have i visited?');
+         var CountryNumbers=Countries.toUpperCase();
+         var OutCountries=('almost there' + Countries + 'you might be right');
+         if(CountryNumbers === 3);
+         {
+           console.log(CountryNumbers);
+           alert(OutCountries);
+         }
+         alert('Greetings' + properName +  'i love bananas');
+       </script>
     </body>
-    
-</html>
